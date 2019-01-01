@@ -2,10 +2,12 @@ $primary-color: brown;
 // Ekemplo 1
 h3{
     color : $primary-color;
+    font-size:32px;
 }
 
 p{
-    color : $primary-color;
+    color : black;
+    font-size:24px;
 }
 //Ejemplo 2
 
@@ -32,3 +34,5 @@ nav{
         background:$hover-color;
     }
 }
+//ejemplo 3
+@import "profile";
